@@ -1,0 +1,34 @@
+		.chess {
+	display: table;
+	font-size:80px;
+	text-align: center;
+	border:20px solid saddlebrown;
+	border-radius: 20px;
+}
+.chess-tr {
+	display: table-row;
+}
+.chess-tr div {
+	display: table-cell;
+}		
+ 
+.chess .chess-tr:nth-child(odd) div:nth-child(odd) {
+	background: saddlebrown;
+}	
+.chess .chess-tr:nth-child(even) div:nth-child(even) {
+	background: saddlebrown;
+}
+.graybrd{
+	background-color: gray !important;
+	font-size: 20px;
+	text-align: center;
+}
+.graybrdrightdown{
+	background-color: gray !important;
+	font-size: 20px;
+	text-align: center;
+	transform: rotate(180deg);
+}
+img{
+	margin: auto;
+}
